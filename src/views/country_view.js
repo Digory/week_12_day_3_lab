@@ -24,6 +24,14 @@ CountryView.prototype.createElements = function(country){
     this.imageElement.setAttribute('src', country.flag);
     this.imageElement.setAttribute('height', '25%');
     this.imageElement.setAttribute('width', '25%');
+    this.imageElement.addEventListener('click', (event)=>{
+            if(this.imageElement.classList.contains('rotate')){
+                this.imageElement.classList.remove('rotate');
+            }
+            else{
+                this.imageElement.classList.add('rotate');
+            }
+    })
     this.regionHeadingElement = document.createElement('h3');
     this.regionParagraphElement = document.createElement('p');
     this.languagesHeadingElement = document.createElement('h3');

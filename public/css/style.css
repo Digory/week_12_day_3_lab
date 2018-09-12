@@ -19,10 +19,10 @@ p {
 }
 
 li {
+    display: inline-block;
     font-family: 'Work Sans', sans-serif;
     list-style: none;
     margin-left: -3%;
-
 }
 
 body {
@@ -30,4 +30,17 @@ body {
     margin: 0 auto;
     text-align: center;
 }
+
+
+
+  .rotate{
+    transition: transform 0.3s;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+
+
 
