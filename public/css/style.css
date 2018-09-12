@@ -19,7 +19,6 @@ p {
 }
 
 li {
-    display: inline-block;
     font-family: 'Work Sans', sans-serif;
     list-style: none;
     margin-left: -3%;
