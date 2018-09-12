@@ -1,0 +1,33 @@
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+    font-family: 'Nunito', sans-serif;
+}
+
+h3 {
+    font-family: 'Nunito', sans-serif;
+}
+
+label {
+    font-family: 'Work Sans', sans-serif;
+}
+
+p {
+    font-family: 'Work Sans', sans-serif;
+}
+
+li {
+    font-family: 'Work Sans', sans-serif;
+    list-style: none;
+    margin-left: -3%;
+
+}
+
+body {
+    background-color: #ffc2b3;
+    margin: 0 auto;
+    text-align: center;
+}
+
